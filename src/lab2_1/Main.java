@@ -13,7 +13,12 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		sayHelloByDeveloperOne();
 		sayHelloByDeveloperTwo();
+	}
+
+	private static void sayHelloByDeveloperOne() {
+		System.out.println("Hello from Developer #1");
 	}
 
 	private static void sayHelloByDeveloperTwo() {
